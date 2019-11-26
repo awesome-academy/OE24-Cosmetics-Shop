@@ -1,1 +1,45 @@
 en:
+  static_pages:
+    home:
+      cosmetic_fasion: Cosmetic Fasion
+      cosmetic_collection: Cosmetic Collection 2019
+      shop_now: Shop now
+      lipstick: Lipstick
+      body_cream: Body Cream
+      cleanser: Cleanser
+      new_cosmetic: New cosmetic
+      innisfree: Innisfree
+      moisturizing: Moisturizing Tint Innisfree Vivid Oil Tint
+      innisfree_real: Innisfree Real Fit Lipstick New 2019 Latest Lipsticks
+      skin: Skin Recovery Essence
+      the_face_shop: The Face Shop Anti-Aging Product Set
+      innisfree_green: Innisfree Green Tea Cleansing
+      innisfree_the: Innisfree The Minimum
+  layouts:
+    header:
+      home: Home
+      shop: Shop
+      cosmetic_shop: cosmetic shop
+      pages: Pages
+      login: Login
+      product_checkout: Product Checkout
+      shopping_cart: Shopping Cart
+      confirmation: Confirmation
+      contact: Contact
+    footer:
+      category: Category
+      male: Male
+      lipstick: Lipstick
+      body_cream: Body Cream
+      cleanser: Cleanser
+      company: Company
+      about: About
+      news: News
+      faq: FAQ
+      contact: Contact
+      address: Address
+      tran_khat_chan: 434, Tran Khat Chan , Ha Noi
+      newsletter: News letter
+      subscribe: Subscribe
+      contact_sun: contact2013@sun.com
+

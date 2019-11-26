@@ -1,0 +1,282 @@
+<section class="banner_part">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="banner_slider">
+                    <div class="single_banner_slider">
+                        <div class="banner_text">
+                            <div class="banner_text_iner">
+                                <h5><%= t(".cosmetic_fasion") %></h5>
+                                <h1><%= t(".cosmetic_collection") %></h1>
+                                <%= link_to t(".shop_now"), "#", class: "btn_1" %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- banner part start-->
+    <!-- feature_part start-->
+<section class="feature_part pt-4">
+    <div class="container-fluid p-lg-0 overflow-hidden">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-4 col-sm-6">
+                <div class="single_feature_post_text">
+                    <%= image_tag "lipstick.png", alt: "lipstick",class:"image" %>
+                    <div class="hover_text">
+                        <%= link_to t(".lipstick"), "#", class: "btn_2" %>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="single_feature_post_text">
+                    <%= image_tag "bodycream.png", alt: "bodycream",class:"image" %>
+                    <div class="hover_text">
+                        <%= link_to t(".body_cream"), "#", class: "btn_2" %>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="single_feature_post_text">
+                    <%= image_tag "cleanser.png", alt: "cleanser",class:"image" %>
+                    <div class="hover_text">
+                        <%= link_to t(".cleanser"), "#", class: "btn_2" %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="new_arrival section_padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="arrival_tittle">
+                        <h2><%= t(".new_cosmetic") %></h2>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="arrival_filter_item filters">
+                        <ul>
+                            <li class="active controls" data-filter="*">all</li>
+                            <li class="controls" data-toggle=".men"><%= t(".lipstick") %></li>
+                            <li class="controls" data-toggle=".women"><%= t(".body_cream") %></li>
+                            <li class="controls" data-toggle=".shoes"><%= t(".cleanser") %></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="new_arrival_iner filter-container">
+                        <div class="single_arrivel_item weidth_1 mix shoes">
+                            <%= image_tag "lipstick1.png", alt: "lipstick1",class:"image_new" %>
+                            <div class="hover_text">
+                                <p><%= t(".innisfree") %></p>
+                                <%= link_to "#" %>
+                                    <h3><%= t(".moisturizing") %></h3>
+                                <div class="rate_icon">
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                </div>
+                                <h5><%= Settings.innisfree %></h5>
+                                <div class="social_icon">
+                                    <%= link_to "#" do %>
+                                    <i class="ti-heart"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="ti-bag"></i>
+                                    <% end %>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_arrivel_item weidth_2 mix women">
+                            <%= image_tag "lipstick2.png", alt: "lipstick2",class:"image_new" %>
+                            <div class="hover_text">
+                                <p><%= t(".innisfree") %></p>
+                                <%= link_to "#" %>
+                                    <h3><%= t(".innisfree_real") %></h3>
+                                <div class="rate_icon">
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                </div>
+                                <h5><%= Settings.innisfree_real %></h5>
+                                <div class="social_icon">
+                                    <%= link_to "#" do %>
+                                    <i class="ti-heart"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="ti-bag"></i>
+                                    <% end %>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_arrivel_item weidth_3 mix shoes women" >
+                            <%= image_tag "bodycream1.png", alt: "bodycream1",class:"image_new" %>
+                            <div class="hover_text">
+                                <p><%= t(".body_cream") %></p>
+                                <%= link_to "#" %>
+                                    <h3><%= t(".skin") %></h3>
+                                <div class="rate_icon">
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                </div>
+                                <h5><%= Settings.skin %></h5>
+                                <div class="social_icon">
+                                    <a href="#"><i class="ti-heart"></i></a>
+                                    <a href="#"><i class="ti-bag"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_arrivel_item weidth_3 mix women men">
+                            <%= image_tag "bodycream2.png", alt: "bodycream2",class:"image_new" %>
+                            <div class="hover_text">
+                                <p><%= t(".body_cream") %></p>
+                                <%= link_to "#" %>
+                                    <h3><%= t(".the_face_shop") %></h3>
+                                <div class="rate_icon">
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                </div>
+                                <h5><%= Settings.the_face_shop %></h5>
+                                <div class="social_icon">
+                                    <%= link_to "#" do %>
+                                    <i class="ti-heart"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="ti-bag"></i>
+                                    <% end %>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_arrivel_item weidth_2 mix men women">
+                            <%= image_tag "cleanser1.png", alt: "cleanser1",class:"image_new" %>
+                            <div class="hover_text">
+                                <p><%= t(".cleanser") %></p>
+                                <%= link_to "#" %>
+                                    <h3><%= t("innisfree_green") %></h3>
+                                <div class="rate_icon">
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                </div>
+                                <h5><%= Settings.innisfree_green %></h5>
+                                <div class="social_icon">
+                                    <%= link_to "#" do %>
+                                    <i class="ti-heart"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="ti-bag"></i>
+                                    <% end %>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_arrivel_item weidth_1 mix shoes men">
+                            <%= image_tag "cleanser2.png", alt: "cleanser2",class:"image_new" %>
+                            <div class="hover_text">
+                                <p><%= t(".cleanser") %></p>
+                                <%= link_to "#" %>
+                                    <h3><%= t(".innisfree_the") %></h3>
+                                <div class="rate_icon">
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="fas fa-star"></i>
+                                    <% end %>
+                                </div>
+                                <h5><%= Settings.innisfree_the %></h5>
+                                <div class="social_icon">
+                                    <%= link_to "#" do %>
+                                    <i class="ti-heart"></i>
+                                    <% end %>
+                                    <%= link_to "#" do %>
+                                    <i class="ti-bag"></i>
+                                    <% end %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

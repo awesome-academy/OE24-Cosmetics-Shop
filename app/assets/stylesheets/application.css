@@ -1,4 +1,15 @@
 /*
  *= require_tree .
  *= require_self
+ *= require bootstrap.min
+ *= require animate
+ *= require owl.carousel.min
+ *= require all
+ *= require flaticon
+ *= require magnific-popup
+ *= require slick
+ *= require style
+ *= require custom
  */
+
+
